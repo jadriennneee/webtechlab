@@ -2,26 +2,34 @@ html, body{
     margin:0;
 }
 
-.banner, footer{
-    background:#800000;
-    padding: 1em 1em;
+.navigation, footer{
+    #background:#800000;
+    background:white;
     margin: 0;
-    max-width:100%;
     height:100%;
+}
+
+.navigation {
+    max-width:100%;
+    padding: 1em 1em;
+}
+
+footer{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 0.8em;
 }
 
 div header {
     position:relative;
     display:inline-block;
-    padding-left: 4em;
-    background:#800000;
-    font-family: sans-serif;
-    color: white;
+    #padding-left: 4em;
+    color: black;
 }
 
 header h1 {
     line-height: 45px;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0;
     display:inline;
     float: left;
@@ -31,14 +39,14 @@ div nav {
     display: inline-block;
     float: right;
     padding: 0;
-    #padding:0.65em 
-    background-color: #800000;
+    padding:0.65em 
+    #background: #800000;
     height:100%;
 }
 
 nav ul {
     list-style-type: none;
-    #margin: 0.4em;
+    margin: 0.4em;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -50,7 +58,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -58,4 +66,32 @@ nav li a {
 
 nav li a:hover{
     background-color: #A9A9A9;
+    opacity: 0.6;
+} 
+
+#banner{
+    background-image:url(headerimg.JPG);
+    height:580px;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow:hidden;   
 }
+
+div h2{
+    color: white;
+}
+ 
+#about{
+    padding-top: 3em;
+    #background-color: white;
+    background-color: gainsboro;
+    display: inline-block;
+    width: 100%;
+}
+
+section h3{
+    text-align: center;
+}
+
