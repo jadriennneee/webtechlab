@@ -1,0 +1,139 @@
+html, body{
+    margin:0;
+}
+
+.navigation, footer{
+    #background:#800000;
+    background:white;
+    margin: 0;
+    height:100%;
+}
+
+.navigation {
+    max-width:100%;
+    padding: 1em 1em;
+}
+
+footer{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 0.8em;
+}
+
+div header {
+    position:relative;
+    display:inline-block;
+    #padding-left: 4em;
+    color: black;
+}
+
+header h1 {
+    line-height: 45px;
+    font-size: 1rem;
+    margin: 0;
+    display:inline;
+    float: left;
+}
+
+div nav {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    padding:0.65em 
+    #background: #800000;
+    height:100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0.4em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: #A9A9A9;
+    opacity: 0.6;
+} 
+
+#banner{
+    background-image:url(headerimg.JPG);
+    height:580px;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow:hidden;   
+}
+
+div h2{
+    color: white;
+}
+ 
+#about{
+    padding-top: 3em;
+    #background-color: white;
+    background-color: gainsboro;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+}
+
+section h3{
+    text-align: center;
+}
+
+#contact{
+    padding-top: 1em;
+    background-color: gainsboro;
+    width: 100%;
+    height: 500px; 
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    width: 100%;
+    height: 350px;
+}
+
+input[type="text"], textarea {
+    float: left;
+    width: 40%;
+    font-size: 20px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    #box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 15px;
+    margin-bottom: 16px;
+    resize: vertical;
+    clear: both;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+    float: left;
+    clear: both;
+}
