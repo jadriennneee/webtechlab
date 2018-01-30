@@ -1,14 +1,17 @@
 html, body{
     margin:0;
+    padding: 0;
 }
 
-header {
+header{
     position: fixed;
     width:100%;
     height: 3em;
     padding-left: 1em;
     display:block;
     background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
 }
 
 header h1 {
@@ -48,7 +51,6 @@ nav li a {
 
 nav li a:hover{
     background-color: #A9A9A9;
-    #opacity: 0.6;
 } 
 
 #banner{
@@ -80,31 +82,85 @@ nav li a:hover{
     padding-bottom: 0;
 }
 
-.button{
+.button {
     padding: 1em;
-    margin: 0 auto;
     border-radius: 15px;
     background-color: whitesmoke;
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    #right:0;
-    bottom:1em;
-    background: rgba(150, 150, 150, 0.5);
+    text-align: center;
 }
 
-.button:hover{
-    #opacity: 1;
+#b1{
+    margin-top: 9em;
+    background: rgba(150, 150, 150, 0.5);    
+    margin: 13em auto;
+    width: 5em;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#b1:hover{
     background: rgba(0, 0, 0, 0.5);
 }
 
-#about{
-    padding-top: 1em;
-    background-color: gainsboro;
-    display: inline-block;
-    width: 100%;
+#about {
+    background-color: white;
+    width: 80%;
+    padding-left: 7em;
+    padding-right: 5em;
 }
 
-#about h3{
+.container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: inline-block;
+}
+
+.container h3 {
     text-align: center;
+    line-height: 0;
+}
+
+.container p {
+    text-align: justify;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#blog {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#blog .container p{
+    text-align: left;
+    width: 40%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: inline-block;
+}
+
+#blog .container img{
+    padding-top: 1em;
+    padding-right: 4em;
+    width: 35%;
+    height: auto;
+    display: inline;
+    float: right;
+}
+
+#b2 {
+    width: 7em;
+    margin-top: 0;
+    background: rgba(150, 150, 150, 0.5);    
+    margin-left:13em;
+    margin-right:5em;
+    display: block;
+}
+
+#b2:hover{
+    background: rgba(0, 0, 0, 0.5);
 }
