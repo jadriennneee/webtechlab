@@ -1,0 +1,68 @@
+hmtl, body{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+.navigation {
+    #float: left;
+    background-color: maroon;
+    #border: 1px solid gray;
+    #padding: 1em 1em;
+    position: fixed;
+    margin-left: 20px;;
+    width: 180px;
+    height: 100%;
+    #overflow: hidden;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 5px;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover{
+    background-color: gray;
+    font-style: italic;
+    color: black;
+}
+
+main{
+    background-color: gray;
+    background-image: url(woodcarving.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    #height: 730px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+}
+
+#banner{
+    #padding-left: 1em;
+    height: 300px;
+    width: 100%;
+}
+#banner h2{
+    background-color: white;;
+    width: 100%;
+}
+
+#about{
+    background-color: white;
+}
+
+footer{
+    background-color: maroon;
+    text-align: center;
+    #border: 1px solid gray;
+    margin-left: 200px;
+    padding: 1px;
+    #clear: both;
+}
