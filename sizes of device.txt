@@ -1,0 +1,15 @@
+laptop
+width:1024
+height:993
+tablet
+width:768
+height:745
+mobile L
+width:425
+height:745
+mobile M
+width:375
+height:745
+mobile S
+width:320
+height:745
