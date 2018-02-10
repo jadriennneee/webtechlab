@@ -1,0 +1,55 @@
+body{
+	background-image: ur;("../img/Graffiti-background.jpg");
+	background-color; #808080;
+
+	margin: 0 auto;
+	width: 960px;
+	font: 14px/20px 'Trebuchet MS', Verdana, Helvetica, Arial
+	font-size: 0.11em;
+	padding: 50px;
+}
+
+heaeder, foorter, section, nav, main, div, aside{
+	display: block;
+	padding 15px;
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+img{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px; 
+}
+
+#wrapper{
+	background-image: repeating-linear-gradient(#808080);
+	padding: 20px 20px 20px 20px;
+	margin-left: auto;
+	margin-reight: auto;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+header{
+	background-image: repeating-linear-gradient(pink, hsla(89, 43%, 51%, 0.3));
+	height: 300px;
+}
+
+nav {
+	background-image: linear-gradient(hsla(89, 43%, 51%, 0.3), pink);
+	padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+nav li {
+    float: right;
+}
