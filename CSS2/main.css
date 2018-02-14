@@ -1,0 +1,151 @@
+/*Global*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    #background-color: rgb(119,196,211);
+    background-color: rgb(218,237,226);
+    margin: 0 auto;
+    width: 100;
+    height: 100%;
+    margin-left: 80px;
+    font-family: "arial narrow";
+}
+
+header {
+    margin-top: -5%;
+    float: right;
+    background-color: rgb(67,72,84);
+    height: 1530px;
+    width: 30%;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-indent: 30px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: rgb(227, 229, 139);
+}
+
+/*Header*/
+#header-container {
+    background-color: rgb(227, 229, 139);
+    opacity: 0.8;
+    margin-top: 120px;
+    margin-right: 90px;
+    margin-left: -10%;
+    width: 80%;
+    height: 840px;
+    color: rgb(51,51,51);
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+/*Navigation*/
+nav li {
+    list-style: none;        
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(51,51,51);
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+/*Banner*/
+#banner {
+    margin-top: 60px;
+    background-color: rgb(119,196,211);
+    height: 1400px;
+}
+
+#banner h2 {
+    font-family: Impact;
+    font-weight: 900;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+/*Advocacy*/
+#advocacy {
+    background-color: rgb(249,249,251);
+    opacity: 0.9;
+    margin-top: -85%;
+    margin-left: -5%;
+    width: 70%;
+}
+
+#advocacy .container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(51,51,51);
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+#advocacy h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/*Preview*/
+#preview {
+    background-color: rgb(217,48,73);
+    display: inline-block;
+    position: absolute;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+#preview .col {
+    width: 45%;
+    margin-left: 30px;
+    padding-top: 30px;
+    float: left;
+    color: white;
+}
+
+#preview .inner-col h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1;
+}
+
+#preview .inner-col p {
+    font-size: 16px;
+    word-spacing: 1;
+}
+
+#preview aside {
+    float:right;
+    padding: 50px;
+}
+
+#preview img {
+    width: 300px;
+}
